@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+   margin: 0;
+
+
+}
+body {
+    background-color: aquamarine;
+}
+ .menu {
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+ }
+.conteudo-musica{
+    width: 100%;
+  
+}
+.rodapé{
+    width: 100%;
+    background-color: turquoise;
+    text-align: center;
+}
+.desc-estilo{
+   width: 100%;
+   background-color: skyblue;
+
+}
+.desc-solo{
+    width: 100%;
+    background-color:cyan ;
+ 
+ }
+ .desc-grupo{
+    width: 100%;
+    background-color: mediumaquamarine;
+ 
+ }
+ .desc-banda{
+    width: 100%;
+    background-color: mediumturquoise;
+ 
+ }
+ .desc-app{
+    width: 100%;
+    background-color:darkblue ;
+ 
+ }
+ .img-ini{
+    width: 100%;
+ }
