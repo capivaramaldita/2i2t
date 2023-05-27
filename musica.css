@@ -10,10 +10,11 @@ body {
  .menu {
     width: 100%;
     height: 60px;
-    background-color: blue;
+    background-color: paleturquoise;
  }
 .conteudo-musica{
     width: 100%;
+    background-color: black;
   
 }
 .rodapé{
@@ -43,9 +44,32 @@ body {
  }
  .desc-app{
     width: 100%;
-    background-color:darkblue ;
+    background-color:darkcyan ;
  
  }
  .img-ini{
     width: 100%;
  }
+ @media screen and (min-width:768px) and (max-width: 992px){
+   .menu {
+      height: 150px;
+      background-color: darkcyan;
+   }
+   .conteudo-musica{
+      display: flex;
+      direction: ltr;
+    
+  }
+ }
+ @media screen and (min-width:993px) and (max-width: 1080px){
+   .menu {
+      height: 200px;
+      background-color: rgb(37, 107, 107);
+   }    
+   
+   .conteudo-musica{
+      display: flex;
+      direction: rtl;
+  }
+ }
+ 
