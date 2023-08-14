@@ -5,13 +5,13 @@
 }
 
 :root{
-    --fundo:#807070;
-    --fonte:#9a8fc8;
+    --fundo:#79004d;
+    --fonte: #ffffff;
     --rover:#8dbdeb;
 }
 
 body{
-    background-color: #a5e6c8;
+    background-color: #571668;
 }
 
 
@@ -154,12 +154,13 @@ width: 24px;
 
 .rodape{
     width: 100vw;
-    background-color: #d9f5b5;
+    background-color: #914591;
     text-align: center;
 }
 
 .descricao{
     width: 100vw;
+    color: white;
 }
 
 .desc-estilo {
@@ -214,11 +215,12 @@ width: 24px;
 .info{
     display: grid;
     width: 100%;
+    color: white;
 }
 
 
 div[class^="item-"]{
-    background-color:#ffa1a1;
+    background-color:#5a4b6e;
     display: flex;
     justify-content: center;
     align-items: center;
